@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Roboto', open-sans;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  header {
+    background: #065494;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    width: 100%;
+    padding:2px;
+  }
+  
+  #results,
+  #bankaccount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 40rem;
+    max-width: 90%;
+    /*border: 1px solid #023d6d;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #023d6d;*/
+  }
+  #addaccount button,#bankaccount button{
+    padding:10px;
+    border-radius:5px;
+    background-color:#065494 ;
+    color:white;
+    border:1px solid #065494;
+  }
+  .displaybtns{
+    margin:10px;
+    
+  }
+  #addaccount{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    margin:10px;
+  }
+  #results {
+    text-align: center;
+  }
+  
+  .displaybtns,#addaccount label {
+    color: #023d6d;
+    font-size:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .displaybtns,#addaccount input{
+    margin-right:5px;
+  }
+  #mainPage{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+ 
+ 
+  
+  #calculator button:hover,
+  #calculator button:active {
+    background: #084f88;
+    border-color: #084f88;
+  }
+  #addaccount,#bankaccount{
+    flex:1;
+    padding:10px;
+  }
+
+  @media(min-width:768px){
+    #mainPage{
+        flex-direction:row;
+    }
+    #addaccount,#bankaccount{
+        width:50%;
+    }
+  }
+  
+  
+  
+  #calc-actions {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  #label{
+    margin-left:20px;
+  }
