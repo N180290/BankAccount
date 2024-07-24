@@ -20,8 +20,6 @@ Calculates and adds interest to the account balance based on the specified `rate
 - `rate` (number): The interest rate (as a percentage). Must be positive.
 ### `getBalance()`
 Returns the current balance of the account.
-### `getAccountDetails()`
-Returns an object containing the account details, including the transaction history.
 ### `recordTransaction(type, amount, relatedAccount = null)`
 Records a transaction in the account's transaction history.
 - `type` (string): The type of transaction (e.g., 'deposit', 'withdrawal', 'transfer in', 'transfer out', 'interest').- `amount` (number): The amount involved in the transaction.- `relatedAccount` (number, optional): The account number involved in the transaction, if applicable.
