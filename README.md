@@ -1,4 +1,4 @@
-# BankAccount Class
+# BankAccount 
 The `BankAccount` class simulates a simple banking account with essential functionalities such as deposit, withdraw, transfer, and interest calculation.
 ## Features
 - **Deposit**: Add a specified amount to the account balance and record the transaction.- **Withdraw**: Subtract a specified amount from the account balance (if sufficient funds are available) and record the transaction.- **Transfer**: Transfer a specified amount to another account and record both the withdrawal and deposit transactions.- **Add Interest**: Calculate and add interest to the account balance based on a specified rate.- **Get Account Details**: Retrieve the account details, including the transaction history.
